@@ -107,9 +107,15 @@ body{
     text-align: left;
 }
 .service .service-icon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.service .service-icon .service-box {
     text-align: center;
-    align-items: center;
-    justify-content: center;
+}
+.service .service-box img {
+    padding: 6px;
 }
 .service .service-info h1 {
     font-size: 35px;
@@ -138,13 +144,7 @@ body{
     text-decoration: none;
     color: black;
 }
-.service .icon-cont {
-    display: flex;
-    justify-content: space-around;
-    gap: 70px;
-    align-items: center;
-}
-.service .icon-cont .pic1 {
+.service .service-box .pic1 {
     background: url(icon/bac1.png)center/cover no-repeat;
 }
 .service .icon-cont .pic2 {
@@ -207,8 +207,49 @@ body{
 .story .story-info p {
     font-size: 16px;
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
+.facility {
+    text-align: center;
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+}
+.facility h2 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+.facility h2 span {
+    color: #ff9800;
+}
+.facility-contt {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin: auto;
+    max-width: 1100px;
+}
+.facility .facility-contt .line-mini {
+    text-align: left;
+    display: flex;
+    gap: 15px;
+}
+.facility .line-mini img {
+    width: 80px;
+    height: 90px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-top: 22px;
+}
+.facility .line-mini h4 {
+    font-size: 1.1rem;
+    margin-bottom: 1.4;
+}
+.facility .line-mini p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
 
 
 
