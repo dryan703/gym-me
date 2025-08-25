@@ -94,6 +94,11 @@ body{
 .fit-container .experience .exp-card {
     text-align: center;
 }
+.fit-container .world-fit .fit-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .service {
     flex-wrap: wrap;
     background-color: black;
@@ -248,6 +253,127 @@ body{
 .facility .line-mini p {
     font-size: 0.9rem;
     line-height: 1.4;
+}
+.tutors {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 20px;
+    background: black;
+    color: #fff;
+}
+.tutors h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.tutors h2 span {
+    color: #ff9800;
+}
+.tutors .tutors-img {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 43px;
+    padding: 10px;
+}
+.tutors .tutors-img img {
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+}
+.Contact {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0px;
+    color: #f9f9f9;
+    background-color: black;
+}
+.Contact h2 {
+    font-size: 1.7rem;
+    margin-bottom: 40px;
+}
+.Contact h2 span {
+    color: #ff9800;
+}
+.Contact .Contact-contt {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Contact .left img {
+    width: 600px;
+    object-fit: cover;
+}
+.Contact .Contact-contt .Contact-from {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 40px;
+    color: black;
+    text-align: left;
+}
+.Contact .Contact-from h3 {
+    margin-bottom: 10px;
+}
+.Contact .Contact-from p {
+    margin-bottom: 30px;
+}
+.Contact .Contact-from input {
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+.Contact .Contact-from button {
+    width: 30%;
+    padding: 12px;
+    background: #ff9800;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.Contact .Contact-from a {
+    text-decoration: none;
+    color: black;
+}
+.Contact .Contact-from button:hover {
+    background: #422d0d;
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 25px;
+    background-color: black;
+    color: #f9f9f9;
+}
+footer ul {
+    list-style: none;
+}
+footer li {
+    margin-bottom: 15px;
+}
+iframe {
+    border-radius: 10px;
+    width: 290px;
+    height: 190px;
+}
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px 35px;
+    color: #f9f9f9;
+    background-color: black;
 }
 
 
