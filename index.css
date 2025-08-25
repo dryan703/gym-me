@@ -375,26 +375,33 @@ iframe {
     color: #f9f9f9;
     background-color: black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.social .imgs {
+    display: flex;
+    gap: 15px;
+}
+.social .imgs img {
+    width: 45px;
+}
+.social .dev {
+    font-size: 1.2rem;
+}
+.social .dev span a {
+    color: #ff9800;
+    text-decoration: none;
+}
+.social .dev span a:hover {
+    text-decoration: underline;
+}
 
 
 @media screen and (max-width: 768px ) {
+    .fit-container .fit-img img {
+        width: 300px;
+        max-width: 668px
+    }
+    .Contact .left img {
+        width: 370px;
+    }
     .logo {
         margin-left: 7px;
     }
