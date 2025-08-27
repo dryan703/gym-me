@@ -361,6 +361,7 @@ body{
     padding: 20px 25px;
     background-color: black;
     color: #f9f9f9;
+    text-align: center;
 }
 footer ul {
     list-style: none;
@@ -467,7 +468,6 @@ iframe {
     }
     .footer {
         flex-direction: column;
-        text-align: center;
     }
     .footer ul {
         margin-left: -40px;
