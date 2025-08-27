@@ -4,6 +4,7 @@ body{
 }
 html {
     scroll-behavior: smooth;
+    scroll-padding: 1rem;
 }
 .navbar{
     display: flex;
