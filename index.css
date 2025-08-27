@@ -470,7 +470,7 @@ iframe {
     .hamburger {
         display: block;
         font-size: 45px;
-        margin-left: 90px;
+        margin-right: 10px;
     }
     .footer {
         flex-direction: column;
