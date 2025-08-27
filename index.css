@@ -4,7 +4,7 @@ body{
 }
 html {
     scroll-behavior: smooth;
-    scroll-padding: 1rem;
+    scroll-padding: 8rem;
 }
 .navbar{
     display: flex;
@@ -13,6 +13,8 @@ html {
     padding: 27px 20px;
     background: black;
     color: #fff;
+    position: fixed;
+    width: 95%;
 }
 .logo{
     margin-left: 30px;
@@ -46,7 +48,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 20px;
+    padding: 150px 20px;
     color: #fff;
     background-color: black;
 }
