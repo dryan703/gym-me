@@ -465,5 +465,15 @@ iframe {
         font-size: 45px;
         margin-left: 90px;
     }
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer ul {
+        margin-left: -40px;
+    }
+    .social {
+        flex-direction: column;
+    }
 }
 
